@@ -5,10 +5,10 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~41h3BB5C#GJqRswbykR8nkvSxAEHCZGCZ0VypBDKDjaTSDsmlTL0",
 // add your Session Id 
 
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot
 
 BOT_NAME: process.env.BOT_NAME || "✦ᴍᴀʟᴠɪɴ xᴅ v2",
@@ -65,7 +65,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ v2🚀🔥*",
 // set the auto reply massage on status reply    
 
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 ANTI_LINK: process.env.ANTI_LINK || "true",
@@ -89,10 +89,10 @@ OWNER_REACT: process.env.OWNER_REACT || "true",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 
-AUTO_TYPING: process.env.AUTO_TYPING || "true",
+AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
@@ -107,7 +107,7 @@ FAKE_TYPING: process.env.FAKE_TYPING || "false",
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-DEV: process.env.DEV || "263714757857",
+DEV: process.env.DEV || "22891219260",
 //replace with your whatsapp number       
  
 ANTI_VV: process.env.ANTI_VV || "true",
